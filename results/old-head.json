@@ -1,0 +1,6 @@
+{
+  "format": "prefix-merkle-sha256-v1",
+  "encoding": "flat-json-v1",
+  "size": 128,
+  "root": "c8231fd08acfa385385bb329b4ca533d50d4ac967c2d5928d088f50eb35bc783"
+}

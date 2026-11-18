@@ -1,0 +1,138 @@
+{
+  "data": "deterministic synthetic records; no external/private dataset",
+  "old_head": {
+    "format": "prefix-merkle-sha256-v1",
+    "encoding": "flat-json-v1",
+    "size": 128,
+    "root": "c8231fd08acfa385385bb329b4ca533d50d4ac967c2d5928d088f50eb35bc783"
+  },
+  "new_head": {
+    "format": "prefix-merkle-sha256-v1",
+    "encoding": "flat-json-v1",
+    "size": 257,
+    "root": "db96e34363c3f3b69e7f927efd5c6fecd9a9a78689c287f11897fac4cc3b10f5"
+  },
+  "checks": {
+    "valid_inclusion": true,
+    "valid_append_128_to_257": true,
+    "changed_record_against_original_head": false,
+    "rewritten_prefix_against_saved_old_head": false,
+    "reordered_prefix_against_saved_old_head": false,
+    "extra_proof_node": false,
+    "rewritten_record_against_substituted_head": true,
+    "duplicate_id_in_appended_suffix": true
+  },
+  "scaling": [
+    {
+      "records": 1,
+      "canonical_jsonl_bytes": 66,
+      "inclusion_min_digest_bytes": 0,
+      "inclusion_median_digest_bytes": 0,
+      "inclusion_max_digest_bytes": 0,
+      "consistency_max_digest_bytes": 0
+    },
+    {
+      "records": 2,
+      "canonical_jsonl_bytes": 129,
+      "inclusion_min_digest_bytes": 32,
+      "inclusion_median_digest_bytes": 32.0,
+      "inclusion_max_digest_bytes": 32,
+      "consistency_max_digest_bytes": 32
+    },
+    {
+      "records": 3,
+      "canonical_jsonl_bytes": 193,
+      "inclusion_min_digest_bytes": 32,
+      "inclusion_median_digest_bytes": 64,
+      "inclusion_max_digest_bytes": 64,
+      "consistency_max_digest_bytes": 64
+    },
+    {
+      "records": 5,
+      "canonical_jsonl_bytes": 320,
+      "inclusion_min_digest_bytes": 32,
+      "inclusion_median_digest_bytes": 96,
+      "inclusion_max_digest_bytes": 96,
+      "consistency_max_digest_bytes": 128
+    },
+    {
+      "records": 8,
+      "canonical_jsonl_bytes": 512,
+      "inclusion_min_digest_bytes": 96,
+      "inclusion_median_digest_bytes": 96.0,
+      "inclusion_max_digest_bytes": 96,
+      "consistency_max_digest_bytes": 128
+    },
+    {
+      "records": 13,
+      "canonical_jsonl_bytes": 836,
+      "inclusion_min_digest_bytes": 64,
+      "inclusion_median_digest_bytes": 128,
+      "inclusion_max_digest_bytes": 128,
+      "consistency_max_digest_bytes": 160
+    },
+    {
+      "records": 32,
+      "canonical_jsonl_bytes": 2072,
+      "inclusion_min_digest_bytes": 160,
+      "inclusion_median_digest_bytes": 160.0,
+      "inclusion_max_digest_bytes": 160,
+      "consistency_max_digest_bytes": 192
+    },
+    {
+      "records": 64,
+      "canonical_jsonl_bytes": 4155,
+      "inclusion_min_digest_bytes": 192,
+      "inclusion_median_digest_bytes": 192.0,
+      "inclusion_max_digest_bytes": 192,
+      "consistency_max_digest_bytes": 224
+    },
+    {
+      "records": 100,
+      "canonical_jsonl_bytes": 6498,
+      "inclusion_min_digest_bytes": 128,
+      "inclusion_median_digest_bytes": 224.0,
+      "inclusion_max_digest_bytes": 224,
+      "consistency_max_digest_bytes": 256
+    },
+    {
+      "records": 256,
+      "canonical_jsonl_bytes": 16803,
+      "inclusion_min_digest_bytes": 256,
+      "inclusion_median_digest_bytes": 256.0,
+      "inclusion_max_digest_bytes": 256,
+      "consistency_max_digest_bytes": 288
+    },
+    {
+      "records": 511,
+      "canonical_jsonl_bytes": 33649,
+      "inclusion_min_digest_bytes": 256,
+      "inclusion_median_digest_bytes": 288,
+      "inclusion_max_digest_bytes": 288,
+      "consistency_max_digest_bytes": 320
+    },
+    {
+      "records": 1024,
+      "canonical_jsonl_bytes": 67564,
+      "inclusion_min_digest_bytes": 320,
+      "inclusion_median_digest_bytes": 320.0,
+      "inclusion_max_digest_bytes": 320,
+      "consistency_max_digest_bytes": 352
+    },
+    {
+      "records": 4096,
+      "canonical_jsonl_bytes": 273587,
+      "inclusion_min_digest_bytes": 384,
+      "inclusion_median_digest_bytes": 384.0,
+      "inclusion_max_digest_bytes": 384,
+      "consistency_max_digest_bytes": 416
+    }
+  ],
+  "example_proof_sizes": {
+    "inclusion_digest_bytes": 288,
+    "consistency_digest_bytes": 64,
+    "inclusion_pretty_json_bytes": 793,
+    "consistency_pretty_json_bytes": 295
+  },
+  "interpretation": "Trust the saved heads separately. Proofs do not authenticate sources or enforce unique IDs, factual accuracy, or dataset completeness."
+}

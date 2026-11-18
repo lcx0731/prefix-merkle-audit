@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prefix-merkle-audit"
+version = "0.1.0"
+description = "Ordered dataset commitments with inclusion and append-only consistency proofs"
+requires-python = ">=3.11"
+dependencies = []
+license = "MIT"
+
+[project.scripts]
+merkle-audit = "prefix_merkle.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

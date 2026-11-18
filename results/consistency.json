@@ -1,0 +1,11 @@
+{
+  "format": "prefix-merkle-sha256-v1",
+  "encoding": "flat-json-v1",
+  "kind": "consistency",
+  "size": 257,
+  "old_size": 128,
+  "siblings": [
+    "813bef1c5148f8b8531b80f3e61f04a65e5ce0de7b8a4fb76c2f61115be320db",
+    "66d0a761ee51e8909dbbb2a5c1432b73f9b197e8d39294d22f9454790221972d"
+  ]
+}

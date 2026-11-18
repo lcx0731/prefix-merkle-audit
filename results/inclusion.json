@@ -1,0 +1,18 @@
+{
+  "format": "prefix-merkle-sha256-v1",
+  "encoding": "flat-json-v1",
+  "kind": "inclusion",
+  "size": 257,
+  "index": 17,
+  "siblings": [
+    "3472d9fa0420ac9e7075e4c43f1aae6850bc16d26138ba4850032efb24b19182",
+    "42ea84fb1c01a3966c2908df659330b67d6daae347491561211137e0760c270e",
+    "b0a5ebf71f2114c28d53903362cbed19666ac310847d99203fbfe84349aeb1fa",
+    "9e133b7eb77048a34106caf0e7a3074984a6cef0ade7dd4e3356f1b2a82f1cad",
+    "06c9b9e8d7ace74ffd4f78a830676e4c8b0601d7ae21f00dec9b030462b9ec38",
+    "f6b3ac2639a26fbd308385eebb959ef460c1921e1876199ceccdbb16c9ddbaad",
+    "bb4f7b9899512abdb69c8e4efa61df256ee0dd28283dcd831800942efd5f8c6b",
+    "813bef1c5148f8b8531b80f3e61f04a65e5ce0de7b8a4fb76c2f61115be320db",
+    "66d0a761ee51e8909dbbb2a5c1432b73f9b197e8d39294d22f9454790221972d"
+  ]
+}
